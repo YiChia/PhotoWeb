@@ -1,0 +1,139 @@
+.header
+{
+   
+   display: inline-block;
+   width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: fixed;
+z-index: 100;
+}
+
+.header >div
+{
+    float: left;
+}
+
+
+
+
+.logo
+{
+
+width:220px;
+height:50px;
+
+
+
+display: inline-block;
+line-height: 50px;
+text-align: center;
+background-color: #009688 ;
+color: rgb(255,255,255);
+font-size: 20px;
+//position: fixed;
+//z-index: 100;
+
+
+}
+.center 
+{
+//position: fixed;
+
+line-height: 50px;
+height:50px;
+width: 50px;
+text-align: center;
+font-size: 20px;
+background-color: white;
+}
+
+.right
+{
+ //position: fixed;
+line-height: 50px;
+height:50px;
+width: 1266px;
+text-align: right;
+font-size: 20px;
+background-color: white; 
+color: rgb(0,0,0);
+
+}
+
+.main{
+display: inline-block;
+width: 100%;
+padding-top: 50px;
+padding-left: 220px;
+background-color: yellow;
+text-align: left;
+left: 220px;
+
+
+}
+.main >div
+{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+
+}
+.menu
+{
+position: fixed;
+display: inline-block;
+left: 0;
+top: 0;
+z-index: 50;
+background-color: black;
+width: 220px;
+height: 100%;
+top: 0;
+color: rgb(255,255,255);
+padding-top: 50px;
+float: left;
+
+
+}
+.menu .group
+{
+    display: inline-block;
+    width: 100%;
+    color:rgb(255, 255, 255);
+    height:125px;
+    
+    
+    
+}
+.menu .group >span
+{
+   display: inline-block;
+   width: 100%;
+   top:0;
+   background-color: rgb(71, 107, 107);
+   height: 50px;
+   text-align: left;
+   line-height: 50px;
+
+    
+    
+}
+.menu .group .sub >a
+{
+    display: inline-block;
+    width: 100%;  
+    text-align: left;
+}
+.menu .group .sub
+{
+    display: inline-block;
+    float:left;
+    width: 100%;
+ 
+}
+body
+{
+     
+      background-color: #ececec;
+      font-size: 20px;
+}
